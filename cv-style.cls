@@ -109,10 +109,10 @@
 \setlength{\TPHorizModule}{0.01\paperwidth}
 \setlength{\TPVertModule}{0.01\paperwidth}
 
-\newcommand{\lastupdated}{ 
+\newcommand{\lastupdated}{
   \begin{textblock}{10}(11.3, 0.05)
     \raggedleft
-    \fontsize{8pt}{10pt}\color{date}\thinfont 
+    \fontsize{8pt}{10pt}\color{date}\thinfont
     \lastupdatedtext{} \today
   \end{textblock}}
 
@@ -127,13 +127,13 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        maincolour\or%
-        maincolour\or%
-        maincolour\or%
-        maincolour\or%
-        maincolour\or%
-        maincolour\else%
-        maincolour\fi%
+        darkgray\or%
+        darkgray\or%
+        darkgray\or%
+        darkgray\or%
+        darkgray\or%
+        darkgray\else%
+        darkgray\fi%
     } #1%
   }%
   \stepcounter{colorCounter}%
